@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Ubicacion {
-    private Long idUbicacion;
-    private String direccion;
-    private Long telefono;
-    private Red red;
+public class Empresa {
+    private Long idEmpresa;
+    private String url;
 }

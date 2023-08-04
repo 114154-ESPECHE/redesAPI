@@ -19,7 +19,6 @@ public class UbicacionEntity {
     private String direccion;
     @Column
     private Long telefono;
-    @Column
     @ManyToOne
     @JoinColumn(name = "idRed")
     private RedEntity idRed;
