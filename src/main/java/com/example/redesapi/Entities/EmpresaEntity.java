@@ -16,7 +16,7 @@ public class EmpresaEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idEmpresa;
     @Column
-    private String nombreEmpresa;
+    private String nombre;
     @Column
     private String url;
 }

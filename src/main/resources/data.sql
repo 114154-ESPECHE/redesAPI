@@ -1,0 +1,18 @@
+-- -- Insertar datos en la tabla "empresas"
+-- INSERT INTO empresas (url, nombre) VALUES ('https://www.facebook.com', 'Facebook');
+-- INSERT INTO empresas (url, nombre) VALUES ('https://www.twitter.com', 'Twitter');
+-- INSERT INTO empresas (url, nombre) VALUES ('https://www.instagram.com', 'Instagram');
+--
+-- -- Insertar datos en la tabla "redes"
+-- INSERT INTO redes (idEmpresa) VALUES (1);
+-- INSERT INTO redes (idEmpresa) VALUES (2);
+-- INSERT INTO redes (idEmpresa) VALUES (3);
+--
+-- -- Insertar datos en la tabla "ubicaciones"
+-- INSERT INTO ubicaciones (direccion, telefono, nombre) VALUES ('Dirección 1', 123456789, 'Ubicación A');
+-- INSERT INTO ubicaciones (direccion, telefono, nombre) VALUES ('Dirección 2', 987654321, 'Ubicación B');
+--
+-- -- Insertar datos en la tabla "ubicaciones_redes" para asociar redes a ubicaciones
+-- INSERT INTO ubicaciones_redes (idUbicacion, idRed) VALUES (1, 1);
+-- INSERT INTO ubicaciones_redes (idUbicacion, idRed) VALUES (1, 2);
+-- INSERT INTO ubicaciones_redes (idUbicacion, idRed) VALUES (2, 3);

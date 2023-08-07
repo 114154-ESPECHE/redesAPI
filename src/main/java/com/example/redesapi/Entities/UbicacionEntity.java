@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Entity
 @Table(name = "UBICACIONES")
 @Data
@@ -19,7 +21,9 @@ public class UbicacionEntity {
     private String direccion;
     @Column
     private Long telefono;
-    @ManyToOne
-    @JoinColumn(name = "idRed")
-    private RedEntity idRed;
+    @ManyToMany
+    @JoinTable(name = "ubicaciones_redes",
+            joinColumns = @JoinColumn(name = "idUbicacion"),
+            inverseJoinColumns = @JoinColumn(name = "idRed"))
+    private List<RedEntity> Red;
 }

@@ -16,5 +16,5 @@ public class RedEntity {
     private Long idRed;
     @ManyToOne
     @JoinColumn(name = "idEmpresa")
-    private EmpresaEntity idEmpresa;
+    private EmpresaEntity Empresa;
 }

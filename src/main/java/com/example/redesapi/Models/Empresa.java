@@ -9,5 +9,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Empresa {
     private Long idEmpresa;
+    private String nombre;
     private String url;
 }
