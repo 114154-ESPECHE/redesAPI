@@ -21,6 +21,8 @@ public class UbicacionEntity {
     private String direccion;
     @Column
     private Long telefono;
+    @Column
+    private String nombre;
     @ManyToMany
     @JoinTable(name = "ubicaciones_redes",
             joinColumns = @JoinColumn(name = "idUbicacion"),
